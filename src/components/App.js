@@ -1,14 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import '../styles/App.css';
 import Welcome from './Welcome';
-var name="Digbijay";
+
 const App = () => {
 
+
   return (
-    <>
-    
-    <Welcome name={name} />
-    </>
+    <Welcome name="Jyothi" />
   )
 }
 
